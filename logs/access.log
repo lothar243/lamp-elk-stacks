@@ -1,0 +1,8 @@
+172.19.0.1 - - [03/Mar/2025:14:05:37 +0000] "GET / HTTP/1.1" 200 541 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+172.19.0.1 - - [03/Mar/2025:14:05:37 +0000] "GET /favicon.ico HTTP/1.1" 404 489 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+172.19.0.1 - - [03/Mar/2025:14:05:39 +0000] "GET /404.php HTTP/1.1" 404 257 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+172.19.0.1 - - [03/Mar/2025:14:05:44 +0000] "GET /500.php HTTP/1.1" 500 245 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+172.19.0.1 - - [03/Mar/2025:14:05:46 +0000] "GET /query.php HTTP/1.1" 200 440 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+172.19.0.1 - - [03/Mar/2025:14:05:55 +0000] "GET /slow.php HTTP/1.1" 200 266 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+172.19.0.1 - - [03/Mar/2025:14:06:08 +0000] "GET / HTTP/1.1" 200 541 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
+172.19.0.1 - - [03/Mar/2025:14:06:08 +0000] "GET / HTTP/1.1" 200 540 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0"
