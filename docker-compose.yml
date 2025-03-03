@@ -3,7 +3,7 @@ version: "3.8"
 services:
   # LAMP Stack
   apache:
-    image: php:apache
+    build: .
     container_name: apache
     restart: always
     volumes:
@@ -20,7 +20,7 @@ services:
         max-file: "3"
 
   mysql:
-    image: mysql:5.7
+    image: mariadb:11.8-rc
     container_name: mysql
     restart: always
     environment:
@@ -31,7 +31,9 @@ services:
     networks:
       - lamp_network
     volumes:
-      - mysql_data:/var/lib/mysql
+      - ./mysql-config/50-server.cnf:/etc/mysql/mariadb.conf.d/50-server.cnf
+      - ./mysql-config/data:/var/lib/mysql
+      - ./mysql-config/logs:/var/log/mysql
       - ./busybox:/bin/busybox
 
   # ELK Stack
