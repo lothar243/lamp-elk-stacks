@@ -1,0 +1,1 @@
+After cloning, you need root to own the filebeat.yml file and change its permissions to 644. Otherwise, you should be able to start everything with a 'docker compose up -d'. The web server is located on port 8080, and the Kibana front end is located on port 5601.
